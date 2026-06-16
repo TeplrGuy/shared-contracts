@@ -1,0 +1,12 @@
+{
+  "": "http://json-schema.org/draft-07/schema#",
+  "title": "order-created.v1",
+  "type": "object",
+  "required": ["orderId", "customerId", "createdAt"],
+  "properties": {
+    "orderId": { "type": "string" },
+    "customerId": { "type": "string" },
+    "createdAt": { "type": "string", "format": "date-time" }
+  },
+  "additionalProperties": false
+}
