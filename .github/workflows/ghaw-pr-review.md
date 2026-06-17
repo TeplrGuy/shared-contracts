@@ -9,7 +9,6 @@ permissions:
   pull-requests: read
   actions: read
 tracker-id: contracts-pr-review
-max-ai-credits: 5
 safe-outputs:
   add-comment:
     max: 1
