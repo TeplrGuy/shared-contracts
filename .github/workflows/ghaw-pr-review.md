@@ -66,8 +66,10 @@ Analyze the pull request and:
 
 **Required before merge:**
 - [ ] CI green
+- [ ] Unit/service-level tests pass
 - [ ] Contract compatibility tests pass
 - [ ] Consumer compatibility tests pass (in each affected consumer)
+- [ ] End-to-end consumer validation passes
 - [ ] Version bump present and correct
 - [ ] Deprecation notice added (if removing anything)
 - [ ] Contract owner approval (dual review required)

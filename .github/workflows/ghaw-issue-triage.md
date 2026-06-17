@@ -71,8 +71,10 @@ When a new issue arrives:
 
 **Required quality gates:**
 - [ ] CI
+- [ ] Unit/service-level automated tests
 - [ ] Contract compatibility tests
 - [ ] Consumer impact analysis
+- [ ] End-to-end consumer validation
 - [ ] Dual reviewer sign-off (contract owner + consumer representative)
 - [ ] Human PR review
 
@@ -84,6 +86,8 @@ When a new issue arrives:
 **Evidence expected at PR time:**
 - Before/after schema diff
 - Consumer compatibility test results
+- Unit test report
+- End-to-end consumer validation report
 - Semver changelog entry
 ```
 

@@ -17,7 +17,8 @@
 ## Validation Evidence
 - [ ] CI passed (link):
 - [ ] Security passed (link):
-- [ ] Functional/e2e validation (link):
+- [ ] Unit or service-level tests passed (link):
+- [ ] End-to-end validation passed (consumer flow, curl-through-flow, or equivalent) (link):
 - [ ] Contract compatibility validation (link):
 
 ## Risk and Rollback
