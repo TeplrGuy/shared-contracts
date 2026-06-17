@@ -1,16 +1,32 @@
-## Summary
+## Linked Work
 - Issue:
-- What changed:
+- Related PRs/issues:
 
-## Validation
-- [ ] CI workflow passed
-- [ ] Security workflow passed
-- [ ] Contract versioning rules reviewed
+## Problem and Scope
+- Problem statement:
+- Root cause (if bug):
+- In scope:
+- Out of scope:
 
-## Risk and Rollout
+## Wave Plan (required for multi-step work)
+| Wave | Files/areas | Owner | Checkpoint evidence |
+| --- | --- | --- | --- |
+| 1 |  |  |  |
+| 2 |  |  |  |
+
+## Validation Evidence
+- [ ] CI passed (link):
+- [ ] Security passed (link):
+- [ ] Functional/e2e validation (link):
+- [ ] Contract compatibility validation (link):
+
+## Risk and Rollback
 - Risk level: low / medium / high
-- Rollback plan:
+- Blast radius:
+- Rollback strategy:
 
-## Cross-Service Impact
-- [ ] No breaking contract change
-- [ ] Breaking change documented and migration path added
+## Session Safety
+- [ ] One issue = one primary owner
+- [ ] One branch = one implementation owner
+- [ ] One-file-one-agent rule respected
+- [ ] Review role is separate from implementation
