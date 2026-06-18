@@ -4,7 +4,7 @@
   "private": true,
   "description": "Shared contracts for SDLC demo",
   "scripts": {
-    "validate": "node scripts/validate.js"
+    "validate": "node scripts/validate.js",
+    "test:unit": "node --test tests/unit/**/*.test.js"
   }
 }
-
