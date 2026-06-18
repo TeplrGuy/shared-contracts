@@ -37,3 +37,8 @@ This repository is the shared source of truth for cross-repo contracts in the SD
 - Do not change contract meaning casually to satisfy one repo.
 - Do not merge incompatible naming or shape changes without updating dependent issues.
 - Escalate if a contract change needs repo-wide sequencing or migration planning.
+
+## APM-aligned operations
+- Apply `.github/instructions/apm-aligned-agent-ops.md` for deterministic context loading and cost governance.
+- Keep issue/PR outputs concise and evidence-first.
+- Respect workflow safe-output limits and `max-ai-credits` guardrails.
