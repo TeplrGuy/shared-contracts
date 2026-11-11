@@ -2,9 +2,10 @@
   "name": "shared-contracts",
   "version": "0.1.0",
   "private": true,
+  "engines": { "node": ">=24" },
   "description": "Shared contracts for SDLC demo",
   "scripts": {
     "validate": "node scripts/validate.js",
-    "test:unit": "node --test tests/unit/**/*.test.js"
+    "test:unit": "node --test \"tests/unit/*.test.js\""
   }
 }
