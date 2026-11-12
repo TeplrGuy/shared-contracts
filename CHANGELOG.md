@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.2.0 (unreleased)
 
 - Add Order v1 and OrderListResponse v1 schemas (additive, minor release).
 - Compile every schema with Ajv, resolved references and date-time validation.
