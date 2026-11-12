@@ -32,3 +32,13 @@ Roll out schemas, then provider, then gateway, then UI. These additions do not
 change event schemas or existing endpoint shapes. Rollback removes the new list
 route and its callers together; keep existing create/tracking routes.
 
+## Agentic review runtime
+
+The advisory PR review is generated with gh-aw v1.2.2, matching the compile
+workflow's CLI version. Regenerate from Markdown; never hand-edit the lock.
+The [gateway runtime runbook](https://github.com/TeplrGuy/api-gateway/pull/103)
+records the coordinated repair and validation. The previously approved
+250-credit cap does not guarantee runtime success. Safe outputs remain one
+comment and up to three labels, not approval, merge or deployment. Independent
+review and the documented API/UI alignment gate remain required.
+
